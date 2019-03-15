@@ -1,4 +1,4 @@
 {
-  "mongoURI": "PUT_YOUR_MONGO_URI",
+  "mongoURI": "process.env.MONGODB_URI",
   "jwtSecret": "sl_myJwtSecret"
 }
