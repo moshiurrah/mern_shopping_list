@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // DB Config
-const db = config.get('mongoURI');
+const db = process.env.MONGODB_URI || "mongodb://localhost/Shoppinglist";
 
 // Connect to Mongo
 mongoose
