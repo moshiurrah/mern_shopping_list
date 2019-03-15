@@ -1,4 +1,3 @@
 {
-  "mongoURI": "process.env.MONGODB_URI",
   "jwtSecret": "sl_myJwtSecret"
 }
